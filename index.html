@@ -2,34 +2,57 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>نور ورد | عروض أمازون</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>عروض اليوم</title>
 
 <style>
 body {
+  margin: 0;
   font-family: Arial;
   background: #f5f5f5;
   text-align: center;
 }
 
-h1 {
+header {
   background: #ff6600;
   color: white;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.container {
   padding: 15px;
 }
 
 .product {
   background: white;
-  margin: 20px;
+  margin: 15px 0;
   padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
   border-radius: 10px;
 }
 
-button {
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
   background: #ff6600;
   color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
+  text-decoration: none;
+  border-radius: 6px;
 }
 </style>
 
@@ -37,22 +60,42 @@ button {
 
 <body>
 
-<h1>🔥 أفضل عروض أمازون 🔥</h1>
+<header>
+🔥 أفضل العروض اليوم 🔥
+</header>
 
+<div class="container">
+
+<!-- المنتج 1 -->
 <div class="product">
-  <h2>سماعات بلوتوث</h2>
-  <p>جودة عالية وسعر ممتاز</p>
-  <a href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">
-    <button>اشتري الآن</button>
+  <img src="PUT-IMAGE-LINK-HERE">
+  <h3>Lenovo GM2 Pro Gaming Earphones</h3>
+  <p>سماعات بلوتوث صوت نقي + تقليل ضوضاء 🎧</p>
+  <a class="btn" href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">
+    اشتري الآن
   </a>
 </div>
 
+<!-- المنتج 2 -->
 <div class="product">
-  <h2>ساعة ذكية</h2>
-  <p>تابع صحتك بسهولة</p>
-  <a href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">
-    <button>اشتري الآن</button>
+  <img src="PUT-IMAGE-LINK-HERE">
+  <h3>Smart Watch</h3>
+  <p>ساعة ذكية مقاومة للماء + تصميم شيك ⌚</p>
+  <a class="btn" href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">
+    اشتري الآن
   </a>
+</div>
+
+<!-- المنتج 3 -->
+<div class="product">
+  <img src="PUT-IMAGE-LINK-HERE">
+  <h3>Wireless Headphones</h3>
+  <p>سماعات لاسلكية بطارية قوية وصوت عالي 🔥</p>
+  <a class="btn" href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">
+    اشتري الآن
+  </a>
+</div>
+
 </div>
 
 </body>
