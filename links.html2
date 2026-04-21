@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Deals Links</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #ff6600;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.link-box {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #ff6600;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: #e65c00;
+}
+</style>
+</head>
+
+<body>
+
+<header>🔥 Best Deals Today</header>
+
+<div class="container">
+
+  <div class="link-box">
+    <p>🔥 Hot Offer - Limited Time Deal</p>
+    <a href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">View Deal</a>
+  </div>
+
+  <div class="link-box">
+    <p>💎 Best Selling Product - High Quality</p>
+    <a href="PUT-YOUR-AFFILIATE-LINK-HERE" target="_blank">Shop Now</a>
+  </div>
+
+  <div class="link-box">
+    <p>⚡ Big Discount - Don't Miss It</p>
+    <a "https://s.click.aliexpress.com/e/_c4D9gnMzGet Offer</a>
+  </div>
+
+</div>
+قرب<a href="links.html">See All Deals</a>
+</body>
+</html>
