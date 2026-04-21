@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أفضل العروض اليوم</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+header {
+  background: #ff6600;
+  color: white;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff6600;
+  color: white;
+  padding: 15px 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #e65c00;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+🔥 أفضل العروض اليوم
+</header>
+
+<div class="container">
+  <h2>أهلاً بيك 👋</h2>
+  <p>اضغط هنا لمشاهدة أفضل المنتجات المختارة</p>
+
+  <a href="links.html" class="btn">🔥 شوف كل العروض</a>
+</div>
+
+</body>
+</html>
